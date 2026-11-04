@@ -1,0 +1,26 @@
+GUST Font License — 日本語参考訳（非公式）
+
+原文：GUST-FONT-LICENSE.txt
+本書は原文の理解を補助する参考訳であり、英語原文を置き換えるものではありません。
+配布時は英語原文と、参照されるLPPLの英語本文も同梱してください。
+
+以下は原文の翻訳です。
+
+これは、LaTeX Project Teamによる承認およびその他の意見を待つ、GUST Font Licenseの暫定版（2006-09-30）です。
+GUSTはポーランドのTeXユーザーグループです（http://www.gust.org.pl）。
+
+このライセンスの最新版については、次をご参照ください。
+http://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
+または
+http://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+
+本著作物は、LaTeX Project Public Licenseのバージョン1.3c、または（ご自身の選択により）それ以降のバージョンの条件に従って、配布および／または変更できます。
+
+以下の条項にもご留意ください。
+1) 派生著作物の配布は、本著作物を構成し、付属の「manifest」に記載されたフォントの名前を変更した後にのみ行うことが要請されます。ただし、法的な義務ではありません。また、manifestに列挙された本著作物を構成するファイルにも、新しい名前を付けることが要請されます。この要請に対する例外もmanifestに記載されています。
+
+manifestは、MANIFEST-<fontid>.txtという別ファイルに記載することを推奨します。ここで<fontid>はフォントファミリーの一意な識別子です。本著作物に別の「readme」ファイルが付属する場合は、README-<fontid>.txtという名前を推奨します。
+
+LaTeX Project Public Licenseの最新版は、次にあります。
+http://www.latex-project.org/lppl.txt
+バージョン1.3c以降は、2006/05/20以降のすべてのLaTeX配布物に含まれています。

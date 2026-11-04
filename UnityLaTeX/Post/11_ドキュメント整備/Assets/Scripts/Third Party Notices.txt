@@ -1,0 +1,153 @@
+Third Party Notices
+===================
+
+This package contains the third-party software component listed below.
+
+--------------------------------------------------------------------------------
+
+Component Name: CSharpMath
+License Type:   MIT License
+Source:         https://github.com/verybadcat/CSharpMath
+Usage:          LaTeX parsing, math typesetting, and glyph outline generation
+
+Copyright (c) CSharpMath Contributors
+  (verybadcat, Happypig375, charlesroddie, FoggyFinder, et al.)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Components included:
+  - CSharpMath.dll
+  - CSharpMath.Rendering.dll
+
+The CSharpMath.Rendering.dll binary also contains the following dependencies
+and embedded font files. Their notices and complete license texts are included
+in the Licenses folder next to this file.
+
+  - Typography project (MIT License), used by CSharpMath.Rendering
+  - Latin Modern Math (GUST Font License), embedded as
+    Reference_Fonts/latinmodern-math.otf
+  - Cyrillic Modern (SIL Open Font License 1.1), embedded as
+    Reference_Fonts/cyrillic-modern-nmr10.otf
+  - AMS Capital Blackboard Bold (SIL Open Font License 1.1), embedded as
+    Reference_Fonts/AMS-Capital-Blackboard-Bold.otf
+
+--------------------------------------------------------------------------------
+
+Typography
+==========
+
+Component Name: Typography project
+License Type:   MIT License
+Source:         https://github.com/LayoutFarm/Typography
+Usage:          Text layout and OpenType support used by CSharpMath.Rendering
+
+The MIT license text in Licenses/MIT-CSharpMath-Typography.txt applies to
+both CSharpMath and Typography. The Typography source is not otherwise
+included in this package; the dependency is present in CSharpMath.Rendering.dll.
+
+--------------------------------------------------------------------------------
+
+Latin Modern Math
+=================
+
+Font File:      CSharpMath.Rendering.Reference_Fonts.latinmodern-math.otf
+License Type:   GUST Font License (legally identical to LPPL 1.3c or later)
+Source:         https://www.ctan.org/pkg/lm-math
+License:        Licenses/GUST-FONT-LICENSE.txt
+
+Copyright 2012--2014 for Latin Modern Math OTF by B. Jackowski,
+P. Strzelczyk and P. Pianowski (on behalf of TeX users groups).
+The embedded font metadata identifies version 1.959. The GUST Font License
+requests (without making it a legal requirement) that renamed font and file
+names be used for derived works; this package redistributes the unmodified
+embedded font data.
+
+--------------------------------------------------------------------------------
+
+Cyrillic Modern
+===============
+
+Font File:      CSharpMath.Rendering.Reference_Fonts.cyrillic-modern-nmr10.otf
+License Type:   SIL Open Font License 1.1
+Source:         https://ctan.org/license/ofl
+License:        Licenses/OFL-1.1.txt
+
+Copyright 2012--2014 Andrey V. Panov. The embedded font metadata also
+contains the American Mathematical Society attribution inherited from the
+Computer Modern source. The font is bundled inside CSharpMath.Rendering.dll,
+not sold as a standalone font.
+
+--------------------------------------------------------------------------------
+
+AMS Capital Blackboard Bold
+===========================
+
+Font File:      CSharpMath.Rendering.Reference_Fonts.AMS-Capital-Blackboard-Bold.otf
+License Type:   SIL Open Font License 1.1
+Source:         https://ctan.org/license/ofl
+License:        Licenses/OFL-1.1.txt
+
+Taken from AMSMathematicalSymbol-Medium5, Copyright (c) 1997, 2009
+American Mathematical Society (http://www.ams.org), with Reserved Font Name
+MSBM9. The embedded metadata identifies the 2018 extraction by Happypig375.
+The font is bundled inside CSharpMath.Rendering.dll, not sold as a standalone
+font.
+
+--------------------------------------------------------------------------------
+
+Distribution and Asset Store notice
+====================================
+
+Include this file and the Licenses folder when redistributing the package.
+The product description should include a notice equivalent to:
+
+  This asset uses CSharpMath and Typography under the MIT License, Latin
+  Modern Math under the GUST Font License, and Cyrillic Modern and AMS
+  Capital Blackboard Bold under the SIL Open Font License 1.1. See
+  Assets/Scripts/Third Party Notices.txt and Assets/Scripts/Licenses/.
+
+The license files cover the embedded components only. They do not grant rights
+to Unity, TextMesh Pro, or development-only packages that are resolved by the
+sample project; those components remain subject to their own Unity package
+terms and should not be copied into an Asset Store submission unless they are
+part of the declared product.
+
+--------------------------------------------------------------------------------
+
+Package-owned implementation
+============================
+
+LaTeX-to-SVG output is implemented by the package-owned
+UnityLaTeX.Rendering.CSharpMathSvgBackend. It connects directly to the public
+CSharpMath.Rendering ICanvas API and emits path-based SVG without another
+graphics backend.
+
+Removed dependencies
+====================
+
+The package no longer includes or uses:
+  - VectSharp
+  - VectSharp.SVG
+  - CSharpMath.VectSharp
+  - ExCSS
+  - Unity Vector Graphics
+  - MathJax HTTP API
+
+LaTeX-to-SVG and SVG-to-PNG conversion are both performed locally in managed
+C# code and require no network connection at runtime.
