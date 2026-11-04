@@ -9,13 +9,13 @@ UnityでLaTeX数式を表示するツール「UnityLaTeX」の進捗報告です
 - `Third Party Notices.txt`
   - 本ツールで利用している、Typography（フォント描画用ライブラリ, MITライセンス）と3種のOSSの埋め込みフォントのファイル名、著作権、ライセンス情報、出典などを追加しました。
 - `MIT-CSharpMath-Typography.txt`
-  - Typographyのライセンス文(MITライセンス)となります。
+  - Typographyのライセンス文(MITライセンス)となります。Typographyの著作権情報はこちらに記載されています。
 - `OFL-1.1.txt`
-  - Cyrillic Modern,AMS Capital Blackboard BoldフォントのSIL Open Font License 1.1のライセンス原文となります。
+  - Cyrillic Modern,AMS Capital Blackboard BoldフォントのSIL Open Font License 1.1のライセンス文となります。
 - `GUST-FONT-LICENSE.txt`
-  - Latin Modern MathフォントのGUST Font Licenseのライセンス原文となります。
+  - Latin Modern MathフォントのGUST Font Licenseのライセンス文となります。
 - `LPPL-1.3c.txt`
-  - GUST-FONT-LICENSE.txtが参照するLaTeXカーネルなどのライセンスです。
+  - GUST-FONT-LICENSE.txtが参照するLaTeXカーネルなどのライセンス文です。
 
 【今後の展望】
 Unity Asset Storeでの公開に向けて、ドキュメントを整備します。
