@@ -21,7 +21,11 @@ UnityでLaTeX数式を表示するツール「UnityLaTeX」の進捗報告です
 Unity Asset Storeでの公開に向けて、ドキュメントを整備します。
 
 【動画タイムライン】
-0:00：追加したドキュメント
+0:00：修正したドキュメント(Third Party Notices)
+0:00：追加したドキュメント(MIT-CSharpMath-Typography)
+0:00：追加したドキュメント(OFL-1.1)
+0:00：追加したドキュメント(GUST-FONT-LICENSE)
+0:00：追加したドキュメント(LPPL-1.3c)
 
 #UnityLaTeX
 #UnityTool
