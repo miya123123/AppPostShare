@@ -19,7 +19,7 @@ Cyrillic Modern、AMS Capital Blackboard BoldフォントのSIL Open Font Licens
 Latin Modern MathフォントのGUST Font Licenseのライセンス文です。
 
 ・LPPL-1.3c.txt
-GUST Font Licenseが条件の本体として参照する、LaTeX Project Public License 1.3cのライセンス文です。GUST Font LicenseがLPPL 1.3c以降と法的に同一とされるため、セットで収録しました。
+GUST Font License の中で参照している LPPL を参照しているため、条件の本文である LPPL 1.3c もセットで収録しました。GUST Font License 独自の条項は法的義務ではございませんので、実質的な利用条件は LPPL と同一です。
 
 【今後の展望】
 Unity Asset Storeでの公開に向けて、提出用チェックリストに沿って、通知とライセンス文書の最終確認を進めます。
