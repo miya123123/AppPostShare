@@ -1,0 +1,73 @@
+/Users/miya/program/app/chatGPTGame/root/Claude/Claude Opus 4.7/2_Game Sprite Forge/Recordings/3/Title.png
+/Users/miya/program/app/chatGPTGame/root/Claude/Claude Opus 4.7/2_Game Sprite Forge/Recordings/3/edit.mov
+【Game Sprite Forge（第三弾）】アニメ出力機能を追加しました。【スプライト差分画像生成ツール】
+
+# 概要
+スプライト差分画像を高速生成できるゲーム開発向けツール「Game Sprite Forge」の開発記録です。
+GIF / APNG / WebP形式でのアニメ出力機能の実装（優先度大）が完了しました。
+
+# 今後の展望
+### 1. スプライトシート出力形式の追加（優先度小）
+以下の形式の出力に対応させます。
+- Aseprite / Tiled / Unity Atlas
+
+### 2. 生成できる差分画像の追加（優先度大）
+生成できるエフェクトやアニメーションの差分画像を追加・強化します。
+
+### 3. カスタムパレット読み込み機能の追加
+ユーザー独自のカスタムパレットの読み込み機能を追加します。
+パレットの形式としては、.hex（優先度大）/ .gpl / .pal を予定しています。
+
+これにより、独自に指定した色への減色が可能になります。
+（既存の `Snap to palette` 機能は64色への減色のみ対応しており、減色後の色も指定することはできません。）
+
+### 4. 軽微な機能修正（優先度大）
+バグやUIに関する軽微な修正を行います。
+
+### 5. 本ツールの出品（優先度大）
+Boothなどで本ツールを出品します。
+関連するドキュメント類の作成も行います。
+
+# 特徴
+1. **🍄 ローカル環境で即座に生成とプレビューが可能:** 差分画像を一瞬でまとめて生成し、即座にプレビューできます。画像生成AIは一切使用せず、ピクセルのRGBA値を変更するアルゴリズムで生成します。ローカル・オフライン・無料で瞬時に生成可能です。
+2. **⚡ 以下の10種類の差分画像生成に対応:**
+  * Damage（ダメージ時の赤フラッシュ＋ノイズ）
+  * Hurt Shake（ダメージ＋振動アニメーション）
+  * Color Swap（パレットの色相シフト）
+  * Idle Breath（待機時の呼吸アニメーション）
+  * Blink（輝度の点滅）
+  * Frozen（氷結時の青色オーバーレイ）
+  * Poisoned（毒状態の緑色パルス）
+  * Ghost（半透明＋青色シルエット）
+  * Silhouette（黒塗りブロックアウト）
+  * Burning（炎のエッジ＋赤熱エフェクト）
+3. **⚙️ 細かなパラメータ調整:** ダメージの強度、色相のシフト数、呼吸のフレーム数や振幅をスライダーで直感的に調整可能です。
+4. **🎨 ピクセルアート向けFX:** パレットのクオンタイズ（減色）、アウトラインの自動追加、Damage画像のノイズ処理を搭載しています。
+5. **📦 スプライトシート一括書き出し:** 生成したすべての差分画像やアニメーションフレームを、1枚の巨大なスプライトシート（PNG）として一括エクスポート可能です。
+
+# 使用画像
+ぴぽや様の「竜王様b_歩行」の画像をお借りしました。
+
+# 動画タイムライン
+0:00 全ての差分画像を作成
+0:06 PNG / SHEET / GIF / APNG / WebP形式で出力（Hurt Shake）
+0:14 出力ファイルを確認
+
+# 開発ツール
+### メイン
+Claude Code（Claude Opus 4.7）
+### サブ
+Claude Code（Claude Sonnet 4.6）
+Antigravity（Gemini 3.1 Pro）
+
+# 関連URL
+[お借りした素材 | 【エネミー素材】魔王＆竜王 - ぴぽやblog](https://pipoya.net/blog/demon-king-and-dragon-king/)
+[【Game Sprite Forgeの開発記録（第一弾）】 | miya](https://x.com/miya00907380/status/2047072960163512811)
+[【Game Sprite Forgeの開発記録（第二弾）】 | miya](https://x.com/miya00907380/status/2050334453671526699)
+
+# タグ
+#GameSpriteForge
+#PixelArt
+#ドット絵
+#GameDev
+#indiedev
