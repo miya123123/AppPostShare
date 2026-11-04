@@ -3,6 +3,8 @@
 前回
 
 # Recordings
+/Users/miya/program/app/UnityLaTeX/Recordings/11_ドキュメント整備/Join.mov
+/Users/miya/program/app/UnityLaTeX/Recordings/11_ドキュメント整備/Title.png
 
 # Post
 
