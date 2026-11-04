@@ -1,0 +1,350 @@
+{
+  "studio": {
+    "url": "http://localhost:3038/SlimeLab",
+    "scenes": [
+      {
+        "scene": "Intro",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "透明スライム\nをつくろう",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "ブラウザで\n素材づくり",
+            "width": 300,
+            "height": 112,
+            "expectedHeight": 112,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Presets",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "4つの\nプリセット",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "選んで、\nすぐアレンジ",
+            "width": 300,
+            "height": 112,
+            "expectedHeight": 112,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Material",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "かたちと\n質感を自由に",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "色・透明度\nふくらみ・光沢",
+            "width": 300,
+            "height": 112,
+            "expectedHeight": 112,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Inclusions",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "きらめきを\n閉じ込める",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "泡・宝石・星\n数を変えて、\n自分好みに",
+            "width": 300,
+            "height": 168,
+            "expectedHeight": 168,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Face",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "顔をつけて\nキャラづくり",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "目と口を選ぶ\n位置・間隔も\n自分好みに",
+            "width": 300,
+            "height": 168,
+            "expectedHeight": 168,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Preview",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "見ながら、\nつくり込む",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "固定・拡大表示\nぷるぷる再生",
+            "width": 300,
+            "height": 112,
+            "expectedHeight": 112,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Export",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "透過PNGで\n保存",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "512 / 1024 /\n2048 px\n背景なし・静止画",
+            "width": 300,
+            "height": 168,
+            "expectedHeight": 168,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      },
+      {
+        "scene": "Outro",
+        "standalonePreviewLoaded": true,
+        "layout": [
+          {
+            "kind": "headline",
+            "text": "あなたの\nスライムに",
+            "width": 300,
+            "height": 136,
+            "expectedHeight": 136.32,
+            "unexpectedWrap": false,
+            "overflow": false
+          },
+          {
+            "kind": "explanation",
+            "text": "ゲーム・アイコン\nステッカー素材に",
+            "width": 300,
+            "height": 112,
+            "expectedHeight": 112,
+            "unexpectedWrap": false,
+            "overflow": false
+          }
+        ]
+      }
+    ],
+    "mainPreviewLoaded": true
+  },
+  "playback": {
+    "currentTime": 60,
+    "duration": 60,
+    "ended": true,
+    "paused": true,
+    "error": null,
+    "playbackRate": 1,
+    "presentedFrames": 1799,
+    "quality": {
+      "totalVideoFrames": 1800,
+      "droppedVideoFrames": 0
+    },
+    "samples": [
+      {
+        "currentTime": 6.016893,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 180,
+        "quality": {
+          "totalVideoFrames": 185,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 12.243247,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 367,
+        "quality": {
+          "totalVideoFrames": 372,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 18.45592,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 553,
+        "quality": {
+          "totalVideoFrames": 558,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 24.699544,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 741,
+        "quality": {
+          "totalVideoFrames": 745,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 30.99386,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 929,
+        "quality": {
+          "totalVideoFrames": 934,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 37.228761,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 1116,
+        "quality": {
+          "totalVideoFrames": 1121,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 43.641326,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 1309,
+        "quality": {
+          "totalVideoFrames": 1314,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 49.830746,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 1494,
+        "quality": {
+          "totalVideoFrames": 1499,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 55.97046,
+        "duration": 60,
+        "ended": false,
+        "paused": false,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 1679,
+        "quality": {
+          "totalVideoFrames": 1683,
+          "droppedVideoFrames": 0
+        }
+      },
+      {
+        "currentTime": 60,
+        "duration": 60,
+        "ended": true,
+        "paused": true,
+        "error": null,
+        "playbackRate": 1,
+        "presentedFrames": 1799,
+        "quality": {
+          "totalVideoFrames": 1800,
+          "droppedVideoFrames": 0
+        }
+      }
+    ],
+    "wallSeconds": 62.203226457999996,
+    "fullPlaybackAt1x": true,
+    "sha256": "9c770b61de5455514c1a487ea23d59a1391bd62162b13b3a4dfc246c3bd66283"
+  },
+  "errors": [],
+  "completedAt": "2026-10-23T02:37:15.785Z"
+}

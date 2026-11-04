@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-12T00:52:57.550Z",
+  "chromeVersion": "154.0.8037.57",
+  "browserErrors": 0,
+  "webmcpCalls": 8,
+  "scenes": [
+    {
+      "biome": "garden",
+      "settings": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "garden",
+        "islands": 5,
+        "radius": 5.8,
+        "depth": 5.8,
+        "roughness": 0.45,
+        "rockShape": "jagged",
+        "rockRoughness": 0.65,
+        "trees": 28,
+        "ruins": 1,
+        "temples": 1,
+        "waterfalls": 3,
+        "bridges": true
+      },
+      "stats": {
+        "islands": 5,
+        "trees": 107,
+        "ruins": 1,
+        "temples": 1,
+        "waterfalls": 3,
+        "bridges": 4,
+        "triangles": 25652,
+        "meshes": 66
+      }
+    },
+    {
+      "biome": "twilight",
+      "settings": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "twilight",
+        "islands": 3,
+        "radius": 5.2,
+        "depth": 6.2,
+        "roughness": 0.6,
+        "rockShape": "plateau",
+        "rockRoughness": 0.45,
+        "trees": 14,
+        "ruins": 2,
+        "temples": 2,
+        "waterfalls": 1,
+        "bridges": false
+      },
+      "stats": {
+        "islands": 3,
+        "trees": 34,
+        "ruins": 2,
+        "temples": 2,
+        "waterfalls": 1,
+        "bridges": 0,
+        "triangles": 11068,
+        "meshes": 54
+      }
+    },
+    {
+      "biome": "snow",
+      "settings": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "snow",
+        "islands": 4,
+        "radius": 6,
+        "depth": 5.8,
+        "roughness": 0.35,
+        "rockShape": "rounded",
+        "rockRoughness": 0.55,
+        "trees": 10,
+        "ruins": 1,
+        "temples": 1,
+        "waterfalls": 2,
+        "bridges": true
+      },
+      "stats": {
+        "islands": 4,
+        "trees": 30,
+        "ruins": 1,
+        "temples": 1,
+        "waterfalls": 2,
+        "bridges": 3,
+        "triangles": 16968,
+        "meshes": 54
+      }
+    }
+  ],
+  "video": {
+    "file": "Recordings/WebMCP操作_浮遊島生成器.mp4",
+    "bytes": 14666846,
+    "durationSeconds": 74.667,
+    "width": 1920,
+    "height": 1080,
+    "frameRate": "30/1",
+    "decodedFrames": 2240,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "audio": false,
+    "sha256": "3f07b4cfc65901a9df2ea72c775753222c96902e383b840d636188f225629e4d",
+    "fullDecode": "passed"
+  }
+}

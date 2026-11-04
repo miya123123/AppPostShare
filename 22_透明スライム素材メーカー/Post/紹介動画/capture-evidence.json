@@ -1,0 +1,139 @@
+{
+  "viewport": {
+    "width": 1080,
+    "height": 888
+  },
+  "sourceBefore": {
+    "docs/README-JP.md": "e248e92e192a1e88f96cb7743ce3282e9be3b88629f45b21d0705e1992265eaa",
+    "docs/VALIDATION.md": "bc3063e67e3b10ff72a06486ecf1a4ebf86b9db19f7da1243df51e46d3895974",
+    "docs/transparent-slime-design.md": "ae2cb186731b3ed77742e427d12f755b7bae9c44e92bb59444311e6e3fa64b5f",
+    "transparent-slime-studio.html": "3004f81b5eb52c03aca8c9dddc65ddd70457702993d729d64c117e8b7ee6290f"
+  },
+  "clips": [
+    {
+      "name": "01-intro",
+      "seconds": 4,
+      "frames": 120,
+      "rawDuration": 6.56,
+      "trimStart": 2.2069838329999993,
+      "sourceTakeDuration": 4.001944459000001,
+      "playbackRate": 1.0004861147500002
+    },
+    {
+      "name": "02-presets",
+      "seconds": 8,
+      "frames": 240,
+      "rawDuration": 9.2,
+      "trimStart": 0.8452162499999996,
+      "sourceTakeDuration": 8.002063625,
+      "playbackRate": 1.000257953125
+    },
+    {
+      "name": "03-material",
+      "seconds": 10,
+      "frames": 300,
+      "rawDuration": 11.2,
+      "trimStart": 0.8465639159999985,
+      "sourceTakeDuration": 10.000878499999999,
+      "playbackRate": 1.00008785
+    },
+    {
+      "name": "04-inclusions",
+      "seconds": 8,
+      "frames": 240,
+      "rawDuration": 9.4,
+      "trimStart": 1.0479965000000022,
+      "sourceTakeDuration": 8.001144583,
+      "playbackRate": 1.000143072875
+    },
+    {
+      "name": "05-face",
+      "seconds": 10,
+      "frames": 300,
+      "rawDuration": 11.68,
+      "trimStart": 1.327277375,
+      "sourceTakeDuration": 10.000532542,
+      "editedSourceDuration": 9.609434334000001,
+      "playbackRate": 0.9609434334000001,
+      "camera": {
+        "from": 4.240974667000001,
+        "ready": 4.6320728749999995
+      },
+      "zoomViewport": {
+        "width": 1080,
+        "height": 1200,
+        "cropTop": 120
+      }
+    },
+    {
+      "name": "06-preview",
+      "seconds": 8,
+      "frames": 240,
+      "rawDuration": 10.36,
+      "trimStart": 2.0097246250000023,
+      "sourceTakeDuration": 7.998870416999998,
+      "editedSourceDuration": 7.601747667,
+      "playbackRate": 0.950218458375,
+      "camera": {
+        "from": 2.5831070419999995,
+        "ready": 2.9802297919999985
+      },
+      "zoomViewport": {
+        "width": 1080,
+        "height": 1200,
+        "cropTop": 120
+      }
+    },
+    {
+      "name": "07-export",
+      "seconds": 8,
+      "frames": 240,
+      "rawDuration": 9.84,
+      "trimStart": 1.4873417909999986,
+      "sourceTakeDuration": 8.000875209000005,
+      "playbackRate": 1.0001094011250007
+    },
+    {
+      "name": "08-outro",
+      "seconds": 4,
+      "frames": 120,
+      "rawDuration": 7.12,
+      "trimStart": 2.766124874999998,
+      "sourceTakeDuration": 4.001709750000002,
+      "editedSourceDuration": 4.001709750000002,
+      "playbackRate": 1.0004274375000004,
+      "camera": null,
+      "zoomViewport": {
+        "width": 1080,
+        "height": 1200,
+        "cropTop": 120
+      }
+    }
+  ],
+  "downloads": [
+    {
+      "size": 512,
+      "filename": "slime-blob-mint-042-512.png",
+      "path": "exports/slime-512.png"
+    },
+    {
+      "size": 1024,
+      "filename": "slime-blob-mint-042-1024.png",
+      "path": "exports/slime-1024.png"
+    },
+    {
+      "size": 2048,
+      "filename": "slime-blob-mint-042-2048.png",
+      "path": "exports/slime-2048.png"
+    }
+  ],
+  "browserErrors": [],
+  "sourceAfter": {
+    "docs/README-JP.md": "e248e92e192a1e88f96cb7743ce3282e9be3b88629f45b21d0705e1992265eaa",
+    "docs/VALIDATION.md": "bc3063e67e3b10ff72a06486ecf1a4ebf86b9db19f7da1243df51e46d3895974",
+    "docs/transparent-slime-design.md": "ae2cb186731b3ed77742e427d12f755b7bae9c44e92bb59444311e6e3fa64b5f",
+    "transparent-slime-studio.html": "3004f81b5eb52c03aca8c9dddc65ddd70457702993d729d64c117e8b7ee6290f"
+  },
+  "sourceUnchanged": true,
+  "completedAt": "2026-10-23T02:29:11.372Z"
+}

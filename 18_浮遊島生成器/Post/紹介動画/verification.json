@@ -1,0 +1,88 @@
+{
+  "video": {
+    "file": "Recordings/紹介動画_浮遊島生成器.mp4",
+    "bytes": 16803283,
+    "sha256": "fd6379e342a09af2cf353aeee8fc99c018000fcdb0f4d057cee7c14ad96f106e",
+    "duration": 75,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "frames": 2250,
+    "audioStreams": 0,
+    "codec": "h264",
+    "pixelFormat": "yuv420p",
+    "faststart": true,
+    "fullDecode": "passed"
+  },
+  "downloads": {
+    "glb": {
+      "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.glb",
+      "bytes": 1544880,
+      "sha256": "04f823187eaeb57e691ce777113cd6b0af9d7c5321fce14441d267b889ae7ae4",
+      "meshes": 46,
+      "materials": 7,
+      "temple": true
+    },
+    "json": {
+      "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.json",
+      "bytes": 150536,
+      "sha256": "8fcd9e55202722a537bb838db81440b4f999086740f4ef3920f01f4f58dd1542",
+      "schemaVersion": 2,
+      "islands": 3,
+      "bridges": 2,
+      "temples": 1,
+      "surface": true,
+      "spawn": true
+    },
+    "png": {
+      "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.png",
+      "bytes": 205086,
+      "sha256": "31332076c01872a633f56adae961d5ab63d8c8bc1868d3f0ad9636244052a0df",
+      "width": 961,
+      "height": 906,
+      "mode": "RGBA"
+    }
+  },
+  "browserErrors": [],
+  "visualReview": {
+    "framesPrepared": 35,
+    "timestamps": [
+      1,
+      4,
+      6.6,
+      9,
+      10.6,
+      13,
+      14.6,
+      17,
+      18.6,
+      21.3,
+      23.7,
+      24.6,
+      27.3,
+      29.7,
+      30.6,
+      32,
+      33.7,
+      34.6,
+      38,
+      41.7,
+      42.6,
+      45,
+      48.5,
+      52,
+      55,
+      57.7,
+      58.6,
+      61,
+      64,
+      66,
+      68.5,
+      69.7,
+      70.6,
+      73,
+      74.9
+    ],
+    "status": "目視確認用フレームを準備済み。目視結果は visual-review.md を参照してください。"
+  }
+}

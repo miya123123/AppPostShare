@@ -1,0 +1,74 @@
+{
+  "appVersion": "1.4.0",
+  "capture": {
+    "url": "http://127.0.0.1:8765",
+    "clips": {
+      "garden": {
+        "file": "output/playwright/intro/acabcd50bf06ddcc48fdb3d7a360559c.webm",
+        "start": 4.677,
+        "duration": 14
+      },
+      "twilight": {
+        "file": "output/playwright/intro/0c562627c38fd77a5ab85253766bdb38.webm",
+        "start": 4.707,
+        "duration": 5
+      },
+      "snow": {
+        "file": "output/playwright/intro/ba94f779c723ba41a493069d8f9fa6dd.webm",
+        "start": 4.651,
+        "duration": 5
+      },
+      "orbit": {
+        "file": "output/playwright/intro/b5868294d154c626628201c7f6d5883a.webm",
+        "start": 1.72,
+        "duration": 9
+      },
+      "exports": {
+        "file": "output/playwright/intro/f61661eef814ce259306d6ec659924d2.webm",
+        "start": 1.675,
+        "duration": 11
+      }
+    },
+    "downloads": [
+      {
+        "extension": "glb",
+        "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.glb",
+        "failure": null
+      },
+      {
+        "extension": "json",
+        "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.json",
+        "failure": null
+      },
+      {
+        "extension": "png",
+        "file": "output/playwright/intro/downloads/floating-garden-MIYA-SKY-001.png",
+        "failure": null
+      }
+    ],
+    "errors": []
+  },
+  "existingRecordings": [
+    {
+      "file": "Recordings/1.mp4",
+      "bytes": 163705453,
+      "sha256": "adbea2aa8dc17b37d412f823312f013207fdc66d230d61afded33701319e817e"
+    },
+    {
+      "file": "Recordings/2_0.mov",
+      "bytes": 187411496,
+      "sha256": "566ca1bb07d0bf1c86dce32cafcc5bc89842f57caf4bb350ff64f301f4112e05"
+    },
+    {
+      "file": "Recordings/2_1.mov",
+      "bytes": 649192345,
+      "sha256": "bbbf7710d35e37bc747d8d1ebbad5574e18016139f3f5423ee465c4b6471087f"
+    }
+  ],
+  "appSourceHashes": {
+    "src/floating-island-workshop/dist/app.js": "011233e218b49c489578483bc080b423c357863edd39303e0d6e39999c0d8867",
+    "src/floating-island-workshop/dist/generator.js": "602e6a66847e8fe9ebdfd8a5298c350c1ec448e1b765038428073e8407d7ff61",
+    "src/floating-island-workshop/dist/style.css": "c59c044110a5f3071f8391728a6f657abdb02684a8fb542a88881fe12413c662",
+    "src/floating-island-workshop/dist/index.html": "e188c5e9ad28c39a1aad93596ac07f06f043891051a5d617c772d010bd254335"
+  }
+}

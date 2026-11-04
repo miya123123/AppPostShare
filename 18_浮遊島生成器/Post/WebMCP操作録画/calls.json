@@ -1,0 +1,1501 @@
+{
+  "captureStartedAt": "2026-10-12T00:49:27.618Z",
+  "browser": {
+    "version": "154.0.8037.57",
+    "origin": "http://127.0.0.1:61137"
+  },
+  "video": {
+    "expectedResolution": "1920x1080",
+    "frameRate": 30,
+    "audio": false,
+    "sourceUrl": "http://127.0.0.1:61137",
+    "result": "/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/18_浮遊島生成器/Recordings/WebMCP操作_浮遊島生成器.mp4",
+    "toolCalls": 8,
+    "fileBytes": 14666846,
+    "temporaryCaptureFilesRemoved": true
+  },
+  "calls": [
+    {
+      "elapsedSeconds": 5.23,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 3,
+      "result": {
+        "seed": "MIYA-SKY-001",
+        "settings": {
+          "seed": "MIYA-SKY-001",
+          "biome": "garden",
+          "islands": 3,
+          "radius": 5.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 54,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 2,
+          "triangles": 13764,
+          "meshes": 41
+        },
+        "spawn": [
+          0.4,
+          0.398264,
+          3.025
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 5.5,
+            "rock": {
+              "shape": "spire",
+              "roughness": 0.5,
+              "bottomY": -6.264
+            },
+            "spawn": [
+              0.4,
+              0.398264,
+              3.025
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              8.263120534297716,
+              0.2931831206660718,
+              -9.598076059068681
+            ],
+            "radius": 3.8880671796633397,
+            "rock": {
+              "shape": "spire",
+              "roughness": 0.5,
+              "bottomY": -4.535878964404911
+            },
+            "spawn": [
+              8.263121,
+              0.671729,
+              -7.809565
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.6312481299887134,
+              0.5403228550683707,
+              12.133270870563035
+            ],
+            "radius": 4.098089456519811,
+            "rock": {
+              "shape": "spire",
+              "roughness": 0.5,
+              "bottomY": -5.32229342799224
+            },
+            "spawn": [
+              3.631248,
+              0.901116,
+              14.018392
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.1475501626381006,
+              0.4249944515732204,
+              -3.6560553286546096
+            ],
+            "end": [
+              6.091904685159927,
+              0.7181831206660718,
+              -7.076087571283533
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              1.34033287435013,
+              0.425,
+              4.478521224398125
+            ],
+            "end": [
+              2.6781497396123664,
+              0.9653228550683708,
+              8.948635581877934
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    },
+    {
+      "elapsedSeconds": 14.36,
+      "tool": "configure_floating_stage",
+      "input": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "garden",
+        "islands": 5,
+        "radius": 5.8,
+        "depth": 5.8,
+        "roughness": 0.45,
+        "rockShape": "jagged",
+        "rockRoughness": 0.65,
+        "temples": 1,
+        "trees": 28,
+        "ruins": 1,
+        "waterfalls": 3,
+        "bridges": true
+      },
+      "durationMs": 134,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "garden",
+          "islands": 5,
+          "radius": 5.8,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "jagged",
+          "rockRoughness": 0.65,
+          "trees": 28,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 3,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 5,
+          "trees": 107,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 3,
+          "bridges": 4,
+          "triangles": 25652,
+          "meshes": 66
+        },
+        "spawn": [
+          0,
+          0.481525,
+          2.668
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 5.8,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.96
+            },
+            "spawn": [
+              0,
+              0.481525,
+              2.668
+            ],
+            "temple": {
+              "position": [
+                -3.324017,
+                0.36,
+                0.517116
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.52,
+              "footprint": [
+                1.56,
+                2.34
+              ],
+              "reservedRadius": 1.3259999999999998,
+              "entrance": [
+                -3.394257,
+                0.36,
+                -0.666402
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              9.206282457313444,
+              -0.22112041055224838,
+              -9.479143385146294
+            ],
+            "radius": 4.2937608530577265,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -5.575058725931122
+            },
+            "spawn": [
+              9.206282,
+              0.175219,
+              -7.504013
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              9.479143385146294,
+              0.16707375179976225,
+              9.206282457313444
+            ],
+            "radius": 3.9927380228419787,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.346778643585741
+            },
+            "spawn": [
+              9.479143,
+              0.723844,
+              11.042942
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_04",
+            "center": [
+              -9.206282457313446,
+              -0.336478464351967,
+              9.479143385146292
+            ],
+            "radius": 3.737007580004167,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.065097885396704
+            },
+            "spawn": [
+              -9.206282,
+              -0.011002,
+              11.198167
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_05",
+            "center": [
+              -9.479143385146294,
+              0.8598787895869464,
+              -9.206282457313444
+            ],
+            "radius": 4.418847215020097,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -4.788992940758542
+            },
+            "spawn": [
+              -9.479143,
+              1.208148,
+              -7.173613
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_04",
+            "start": [
+              -3.3573464712676384,
+              0.4180031657117055,
+              3.456853376194142
+            ],
+            "end": [
+              -7.155231837975563,
+              0.088521535648033,
+              7.367302585013979
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.314985815881791,
+              0.437750770517578,
+              -3.413237212106951
+            ],
+            "end": [
+              6.693880768358472,
+              0.203648560086322,
+              -6.892277735399801
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_3",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              3.5850987637191283,
+              0.425,
+              3.481900264097982
+            ],
+            "end": [
+              6.954600778403568,
+              0.5918780727141528,
+              6.754409817680701
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_4",
+            "from": "Island_01",
+            "to": "Island_05",
+            "start": [
+              -3.284991824581965,
+              0.425,
+              -3.1904320230514456
+            ],
+            "end": [
+              -6.901031436359216,
+              1.28408239027635,
+              -6.702382490539987
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    },
+    {
+      "elapsedSeconds": 14.36,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 3,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "garden",
+          "islands": 5,
+          "radius": 5.8,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "jagged",
+          "rockRoughness": 0.65,
+          "trees": 28,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 3,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 5,
+          "trees": 107,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 3,
+          "bridges": 4,
+          "triangles": 25652,
+          "meshes": 66
+        },
+        "spawn": [
+          0,
+          0.481525,
+          2.668
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 5.8,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.96
+            },
+            "spawn": [
+              0,
+              0.481525,
+              2.668
+            ],
+            "temple": {
+              "position": [
+                -3.324017,
+                0.36,
+                0.517116
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.52,
+              "footprint": [
+                1.56,
+                2.34
+              ],
+              "reservedRadius": 1.3259999999999998,
+              "entrance": [
+                -3.394257,
+                0.36,
+                -0.666402
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              9.206282457313444,
+              -0.22112041055224838,
+              -9.479143385146294
+            ],
+            "radius": 4.2937608530577265,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -5.575058725931122
+            },
+            "spawn": [
+              9.206282,
+              0.175219,
+              -7.504013
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              9.479143385146294,
+              0.16707375179976225,
+              9.206282457313444
+            ],
+            "radius": 3.9927380228419787,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.346778643585741
+            },
+            "spawn": [
+              9.479143,
+              0.723844,
+              11.042942
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_04",
+            "center": [
+              -9.206282457313446,
+              -0.336478464351967,
+              9.479143385146292
+            ],
+            "radius": 3.737007580004167,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -6.065097885396704
+            },
+            "spawn": [
+              -9.206282,
+              -0.011002,
+              11.198167
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_05",
+            "center": [
+              -9.479143385146294,
+              0.8598787895869464,
+              -9.206282457313444
+            ],
+            "radius": 4.418847215020097,
+            "rock": {
+              "shape": "jagged",
+              "roughness": 0.65,
+              "bottomY": -4.788992940758542
+            },
+            "spawn": [
+              -9.479143,
+              1.208148,
+              -7.173613
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_04",
+            "start": [
+              -3.3573464712676384,
+              0.4180031657117055,
+              3.456853376194142
+            ],
+            "end": [
+              -7.155231837975563,
+              0.088521535648033,
+              7.367302585013979
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.314985815881791,
+              0.437750770517578,
+              -3.413237212106951
+            ],
+            "end": [
+              6.693880768358472,
+              0.203648560086322,
+              -6.892277735399801
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_3",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              3.5850987637191283,
+              0.425,
+              3.481900264097982
+            ],
+            "end": [
+              6.954600778403568,
+              0.5918780727141528,
+              6.754409817680701
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_4",
+            "from": "Island_01",
+            "to": "Island_05",
+            "start": [
+              -3.284991824581965,
+              0.425,
+              -3.1904320230514456
+            ],
+            "end": [
+              -6.901031436359216,
+              1.28408239027635,
+              -6.702382490539987
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    },
+    {
+      "elapsedSeconds": 29.31,
+      "tool": "configure_floating_stage",
+      "input": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "twilight",
+        "islands": 3,
+        "radius": 5.2,
+        "depth": 6.2,
+        "roughness": 0.6,
+        "rockShape": "plateau",
+        "rockRoughness": 0.45,
+        "temples": 2,
+        "trees": 14,
+        "ruins": 2,
+        "waterfalls": 1,
+        "bridges": false
+      },
+      "durationMs": 80,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "twilight",
+          "islands": 3,
+          "radius": 5.2,
+          "depth": 6.2,
+          "roughness": 0.6,
+          "rockShape": "plateau",
+          "rockRoughness": 0.45,
+          "trees": 14,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 1,
+          "bridges": false
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 34,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 1,
+          "bridges": 0,
+          "triangles": 11068,
+          "meshes": 54
+        },
+        "spawn": [
+          0,
+          0.36,
+          2.392
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 5.2,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -6.324000000000001
+            },
+            "spawn": [
+              0,
+              0.36,
+              2.392
+            ],
+            "temple": {
+              "position": [
+                -2.260806,
+                0.36,
+                0.351712
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.76,
+              "footprint": [
+                2.2800000000000002,
+                3.42
+              ],
+              "reservedRadius": 1.938,
+              "entrance": [
+                -2.363464,
+                0.36,
+                -1.378044
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              7.904932364275653,
+              -0.22112041055224838,
+              -9.182020492039175
+            ],
+            "radius": 3.849578695844859,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -5.085819535043053
+            },
+            "spawn": [
+              7.904932,
+              0.13888,
+              -7.411214
+            ],
+            "temple": {
+              "position": [
+                6.621806,
+                0.13888,
+                -10.28773
+              ],
+              "type": "stone_temple",
+              "rotationY": 2.0035143005839653,
+              "scale": 0.52,
+              "footprint": [
+                1.56,
+                2.34
+              ],
+              "reservedRadius": 1.3259999999999998,
+              "entrance": [
+                7.698128,
+                0.13888,
+                -10.7849
+              ]
+            }
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.4738414799007704,
+              0.16707375179976225,
+              11.60732016326425
+            ],
+            "radius": 3.57969615841005,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -5.751547304007411
+            },
+            "spawn": [
+              3.473841,
+              0.749274,
+              13.25398
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": []
+      }
+    },
+    {
+      "elapsedSeconds": 29.31,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 2,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "twilight",
+          "islands": 3,
+          "radius": 5.2,
+          "depth": 6.2,
+          "roughness": 0.6,
+          "rockShape": "plateau",
+          "rockRoughness": 0.45,
+          "trees": 14,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 1,
+          "bridges": false
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 34,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 1,
+          "bridges": 0,
+          "triangles": 11068,
+          "meshes": 54
+        },
+        "spawn": [
+          0,
+          0.36,
+          2.392
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 5.2,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -6.324000000000001
+            },
+            "spawn": [
+              0,
+              0.36,
+              2.392
+            ],
+            "temple": {
+              "position": [
+                -2.260806,
+                0.36,
+                0.351712
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.76,
+              "footprint": [
+                2.2800000000000002,
+                3.42
+              ],
+              "reservedRadius": 1.938,
+              "entrance": [
+                -2.363464,
+                0.36,
+                -1.378044
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              7.904932364275653,
+              -0.22112041055224838,
+              -9.182020492039175
+            ],
+            "radius": 3.849578695844859,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -5.085819535043053
+            },
+            "spawn": [
+              7.904932,
+              0.13888,
+              -7.411214
+            ],
+            "temple": {
+              "position": [
+                6.621806,
+                0.13888,
+                -10.28773
+              ],
+              "type": "stone_temple",
+              "rotationY": 2.0035143005839653,
+              "scale": 0.52,
+              "footprint": [
+                1.56,
+                2.34
+              ],
+              "reservedRadius": 1.3259999999999998,
+              "entrance": [
+                7.698128,
+                0.13888,
+                -10.7849
+              ]
+            }
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.4738414799007704,
+              0.16707375179976225,
+              11.60732016326425
+            ],
+            "radius": 3.57969615841005,
+            "rock": {
+              "shape": "plateau",
+              "roughness": 0.45,
+              "bottomY": -5.751547304007411
+            },
+            "spawn": [
+              3.473841,
+              0.749274,
+              13.25398
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": []
+      }
+    },
+    {
+      "elapsedSeconds": 44.32,
+      "tool": "configure_floating_stage",
+      "input": {
+        "seed": "WEBMCP-DEMO-001",
+        "biome": "snow",
+        "islands": 4,
+        "radius": 6,
+        "depth": 5.8,
+        "roughness": 0.35,
+        "rockShape": "rounded",
+        "rockRoughness": 0.55,
+        "temples": 1,
+        "trees": 10,
+        "ruins": 1,
+        "waterfalls": 2,
+        "bridges": true
+      },
+      "durationMs": 86,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "snow",
+          "islands": 4,
+          "radius": 6,
+          "depth": 5.8,
+          "roughness": 0.35,
+          "rockShape": "rounded",
+          "rockRoughness": 0.55,
+          "trees": 10,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 30,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 16968,
+          "meshes": 54
+        },
+        "spawn": [
+          0,
+          0.36,
+          2.76
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 6,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -6.264
+            },
+            "spawn": [
+              0,
+              0.36,
+              2.76
+            ],
+            "temple": {
+              "position": [
+                -2.710474,
+                0.36,
+                2.182597
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.64,
+              "footprint": [
+                1.92,
+                2.88
+              ],
+              "reservedRadius": 1.632,
+              "entrance": [
+                -2.796924,
+                0.36,
+                0.72596
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              9.461277112934505,
+              -0.22112041055224838,
+              -9.741695714415519
+            ],
+            "radius": 4.441821572128683,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.039664894393235
+            },
+            "spawn": [
+              9.461277,
+              0.15948,
+              -7.698458
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.705917408154586,
+              0.16707375179976225,
+              13.064554189253332
+            ],
+            "radius": 4.130418644319288,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.695393404047191
+            },
+            "spawn": [
+              3.705917,
+              0.687397,
+              14.964547
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_04",
+            "center": [
+              -13.167194521089089,
+              -0.336478464351967,
+              -3.3228584748378105
+            ],
+            "radius": 3.8658699103491383,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.492235943292231
+            },
+            "spawn": [
+              -13.167195,
+              -0.008763,
+              -1.544558
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.429295671601852,
+              0.4367849860919529,
+              -3.53093504700719
+            ],
+            "end": [
+              6.8622408829810855,
+              0.20350504893744412,
+              -7.065627800884663
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              1.3916795160134465,
+              0.42514158440878363,
+              4.906119173358843
+            ],
+            "end": [
+              2.8122628532822027,
+              0.5920737517997623,
+              9.91413363942863
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_3",
+            "from": "Island_01",
+            "to": "Island_04",
+            "start": [
+              -4.972513497317723,
+              0.44423159022253944,
+              -1.2548579417843164
+            ],
+            "end": [
+              -10.061245066228565,
+              0.08852153564803306,
+              -2.5390445460642033
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    },
+    {
+      "elapsedSeconds": 44.32,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 2,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "snow",
+          "islands": 4,
+          "radius": 6,
+          "depth": 5.8,
+          "roughness": 0.35,
+          "rockShape": "rounded",
+          "rockRoughness": 0.55,
+          "trees": 10,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 30,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 16968,
+          "meshes": 54
+        },
+        "spawn": [
+          0,
+          0.36,
+          2.76
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 6,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -6.264
+            },
+            "spawn": [
+              0,
+              0.36,
+              2.76
+            ],
+            "temple": {
+              "position": [
+                -2.710474,
+                0.36,
+                2.182597
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.64,
+              "footprint": [
+                1.92,
+                2.88
+              ],
+              "reservedRadius": 1.632,
+              "entrance": [
+                -2.796924,
+                0.36,
+                0.72596
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              9.461277112934505,
+              -0.22112041055224838,
+              -9.741695714415519
+            ],
+            "radius": 4.441821572128683,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.039664894393235
+            },
+            "spawn": [
+              9.461277,
+              0.15948,
+              -7.698458
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.705917408154586,
+              0.16707375179976225,
+              13.064554189253332
+            ],
+            "radius": 4.130418644319288,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.695393404047191
+            },
+            "spawn": [
+              3.705917,
+              0.687397,
+              14.964547
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_04",
+            "center": [
+              -13.167194521089089,
+              -0.336478464351967,
+              -3.3228584748378105
+            ],
+            "radius": 3.8658699103491383,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.492235943292231
+            },
+            "spawn": [
+              -13.167195,
+              -0.008763,
+              -1.544558
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.429295671601852,
+              0.4367849860919529,
+              -3.53093504700719
+            ],
+            "end": [
+              6.8622408829810855,
+              0.20350504893744412,
+              -7.065627800884663
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              1.3916795160134465,
+              0.42514158440878363,
+              4.906119173358843
+            ],
+            "end": [
+              2.8122628532822027,
+              0.5920737517997623,
+              9.91413363942863
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_3",
+            "from": "Island_01",
+            "to": "Island_04",
+            "start": [
+              -4.972513497317723,
+              0.44423159022253944,
+              -1.2548579417843164
+            ],
+            "end": [
+              -10.061245066228565,
+              0.08852153564803306,
+              -2.5390445460642033
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    },
+    {
+      "elapsedSeconds": 59.23,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 1,
+      "result": {
+        "seed": "WEBMCP-DEMO-001",
+        "settings": {
+          "seed": "WEBMCP-DEMO-001",
+          "biome": "snow",
+          "islands": 4,
+          "radius": 6,
+          "depth": 5.8,
+          "roughness": 0.35,
+          "rockShape": "rounded",
+          "rockRoughness": 0.55,
+          "trees": 10,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 30,
+          "ruins": 1,
+          "temples": 1,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 16968,
+          "meshes": 54
+        },
+        "spawn": [
+          0,
+          0.36,
+          2.76
+        ],
+        "islands": [
+          {
+            "id": "Island_01",
+            "center": [
+              0,
+              0,
+              0
+            ],
+            "radius": 6,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -6.264
+            },
+            "spawn": [
+              0,
+              0.36,
+              2.76
+            ],
+            "temple": {
+              "position": [
+                -2.710474,
+                0.36,
+                2.182597
+              ],
+              "type": "stone_temple",
+              "rotationY": 3.200871619985255,
+              "scale": 0.64,
+              "footprint": [
+                1.92,
+                2.88
+              ],
+              "reservedRadius": 1.632,
+              "entrance": [
+                -2.796924,
+                0.36,
+                0.72596
+              ]
+            }
+          },
+          {
+            "id": "Island_02",
+            "center": [
+              9.461277112934505,
+              -0.22112041055224838,
+              -9.741695714415519
+            ],
+            "radius": 4.441821572128683,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.039664894393235
+            },
+            "spawn": [
+              9.461277,
+              0.15948,
+              -7.698458
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_03",
+            "center": [
+              3.705917408154586,
+              0.16707375179976225,
+              13.064554189253332
+            ],
+            "radius": 4.130418644319288,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.695393404047191
+            },
+            "spawn": [
+              3.705917,
+              0.687397,
+              14.964547
+            ],
+            "temple": null
+          },
+          {
+            "id": "Island_04",
+            "center": [
+              -13.167194521089089,
+              -0.336478464351967,
+              -3.3228584748378105
+            ],
+            "radius": 3.8658699103491383,
+            "rock": {
+              "shape": "rounded",
+              "roughness": 0.55,
+              "bottomY": -5.492235943292231
+            },
+            "spawn": [
+              -13.167195,
+              -0.008763,
+              -1.544558
+            ],
+            "temple": null
+          }
+        ],
+        "bridges": [
+          {
+            "id": "Bridge_1",
+            "from": "Island_01",
+            "to": "Island_02",
+            "start": [
+              3.429295671601852,
+              0.4367849860919529,
+              -3.53093504700719
+            ],
+            "end": [
+              6.8622408829810855,
+              0.20350504893744412,
+              -7.065627800884663
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_2",
+            "from": "Island_01",
+            "to": "Island_03",
+            "start": [
+              1.3916795160134465,
+              0.42514158440878363,
+              4.906119173358843
+            ],
+            "end": [
+              2.8122628532822027,
+              0.5920737517997623,
+              9.91413363942863
+            ],
+            "width": 1.12
+          },
+          {
+            "id": "Bridge_3",
+            "from": "Island_01",
+            "to": "Island_04",
+            "start": [
+              -4.972513497317723,
+              0.44423159022253944,
+              -1.2548579417843164
+            ],
+            "end": [
+              -10.061245066228565,
+              0.08852153564803306,
+              -2.5390445460642033
+            ],
+            "width": 1.12
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "captureFinishedAt": "2026-10-12T00:50:41.851Z",
+  "captureDurationSeconds": 74.23
+}

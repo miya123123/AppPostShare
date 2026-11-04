@@ -1,0 +1,558 @@
+{
+  "captureStartedAt": "2026-10-12T01:08:56.543Z",
+  "browser": {
+    "version": "154.0.8037.57",
+    "origin": "http://127.0.0.1:61724"
+  },
+  "video": {
+    "expectedResolution": "1920x1080",
+    "frameRate": 30,
+    "audio": false,
+    "temporaryCaptureFilesRemoved": true,
+    "sourceUrl": "http://127.0.0.1:61724",
+    "result": "/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/18_浮遊島生成器/Recordings/WebMCP全パラメータ操作_浮遊島生成器.mp4",
+    "toolCalls": 15,
+    "fileBytes": 17060746
+  },
+  "calls": [
+    {
+      "elapsedSeconds": 5.42,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 24,
+      "result": {
+        "seed": "MIYA-SKY-001",
+        "settings": {
+          "seed": "MIYA-SKY-001",
+          "biome": "garden",
+          "islands": 3,
+          "radius": 5.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 54,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 2,
+          "triangles": 13764,
+          "meshes": 41
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 11.77,
+      "tool": "configure_floating_stage",
+      "input": {
+        "seed": "WEBMCP-ALL-002"
+      },
+      "durationMs": 166,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "garden",
+          "islands": 3,
+          "radius": 5.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 54,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 2,
+          "triangles": 14072,
+          "meshes": 41
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 15.68,
+      "tool": "configure_floating_stage",
+      "input": {
+        "biome": "twilight"
+      },
+      "durationMs": 125,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 3,
+          "radius": 5.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 3,
+          "trees": 54,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 2,
+          "triangles": 14072,
+          "meshes": 41
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 19.78,
+      "tool": "configure_floating_stage",
+      "input": {
+        "islands": 4
+      },
+      "durationMs": 118,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 5.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 18660,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 23.86,
+      "tool": "configure_floating_stage",
+      "input": {
+        "radius": 6.5
+      },
+      "durationMs": 107,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 5.8,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19372,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 27.96,
+      "tool": "configure_floating_stage",
+      "input": {
+        "depth": 7
+      },
+      "durationMs": 103,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.45,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19372,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 32.08,
+      "tool": "configure_floating_stage",
+      "input": {
+        "roughness": 0.7
+      },
+      "durationMs": 114,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "spire",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19372,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 36.18,
+      "tool": "configure_floating_stage",
+      "input": {
+        "rockShape": "rounded"
+      },
+      "durationMs": 115,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.5,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19372,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 40.29,
+      "tool": "configure_floating_stage",
+      "input": {
+        "rockRoughness": 0.75
+      },
+      "durationMs": 130,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 0,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19372,
+          "meshes": 49
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 44.41,
+      "tool": "configure_floating_stage",
+      "input": {
+        "temples": 2
+      },
+      "durationMs": 146,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 22,
+          "ruins": 1,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 69,
+          "ruins": 1,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 19612,
+          "meshes": 59
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 48.45,
+      "tool": "configure_floating_stage",
+      "input": {
+        "trees": 32
+      },
+      "durationMs": 90,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 32,
+          "ruins": 1,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 100,
+          "ruins": 1,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 21720,
+          "meshes": 59
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 52.61,
+      "tool": "configure_floating_stage",
+      "input": {
+        "ruins": 2
+      },
+      "durationMs": 146,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 32,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 99,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 2,
+          "bridges": 3,
+          "triangles": 21788,
+          "meshes": 70
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 56.7,
+      "tool": "configure_floating_stage",
+      "input": {
+        "waterfalls": 3
+      },
+      "durationMs": 138,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 32,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": true
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 99,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": 3,
+          "triangles": 22020,
+          "meshes": 74
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 60.8,
+      "tool": "configure_floating_stage",
+      "input": {
+        "bridges": false
+      },
+      "durationMs": 137,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 32,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": false
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 99,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": 0,
+          "triangles": 18768,
+          "meshes": 68
+        }
+      }
+    },
+    {
+      "elapsedSeconds": 64.77,
+      "tool": "read_floating_stage",
+      "input": {},
+      "durationMs": 2,
+      "result": {
+        "seed": "WEBMCP-ALL-002",
+        "settings": {
+          "seed": "WEBMCP-ALL-002",
+          "biome": "twilight",
+          "islands": 4,
+          "radius": 6.5,
+          "depth": 7,
+          "roughness": 0.7,
+          "rockShape": "rounded",
+          "rockRoughness": 0.75,
+          "trees": 32,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": false
+        },
+        "stats": {
+          "islands": 4,
+          "trees": 99,
+          "ruins": 2,
+          "temples": 2,
+          "waterfalls": 3,
+          "bridges": 0,
+          "triangles": 18768,
+          "meshes": 68
+        }
+      }
+    }
+  ],
+  "errors": [],
+  "captureFinishedAt": "2026-10-12T01:10:13.250Z",
+  "captureDurationSeconds": 76.71
+}
