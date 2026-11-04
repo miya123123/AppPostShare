@@ -6,6 +6,8 @@
 /Users/miya/program/app/UnityLaTeX/Recordings/11_ドキュメント整備/Join.mov
 /Users/miya/program/app/UnityLaTeX/Recordings/11_ドキュメント整備/Title.png
 
+https://drive.google.com/drive/folders/1JgeyGoyD_SuO_sO4wv_v1Fmd_Mn41GVx?usp=drive_link
+
 # Post
 
 # Note用
