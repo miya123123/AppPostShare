@@ -46,6 +46,9 @@
 【本ゲームのURL】
 リプライからご確認ください。
 
+【動作確認済みOS】
+Mac / Android / iOS
+
 【タグ】
 #GPT6.1Sol #GameDev #VibeCoding #CasualGame #ストレス発散系ゲーム
 
