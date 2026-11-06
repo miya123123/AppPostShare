@@ -1,7 +1,4 @@
-/Users/miya/program/app/UnityLaTeX/Recordings/11_ドキュメント整備/Title.png
 【UnityLaTeX（第11弾）】ドキュメント整備を行いました。
-
-(X)
 
 【作業内容】
 UnityでLaTeX数式を表示するツール「UnityLaTeX」の進捗報告です。
