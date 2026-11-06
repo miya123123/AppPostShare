@@ -9,12 +9,19 @@
 https://drive.google.com/drive/folders/1JgeyGoyD_SuO_sO4wv_v1Fmd_Mn41GVx?usp=drive_link
 
 # Post
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/Bluesky.md
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/Instagram.md
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/memo.md
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/Note.md
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/Threads.md
+/Users/miya/program/app/UnityLaTeX/X/11_ドキュメント整備/X.md
 
 # Note用
 
 # 本ポストX URL
 
 # Memo
+
 
 # 関連URL
 - [TEXDraw | GUI ツール | Unity Asset Store](https://assetstore.unity.com/packages/tools/gui/texdraw-51426?locale=ja-JP)
@@ -33,4 +40,6 @@ https://drive.google.com/drive/folders/1JgeyGoyD_SuO_sO4wv_v1Fmd_Mn41GVx?usp=dri
 
 # その他
 1.0 +1 11/5
+2.0 +1 11/6
+
 -->
