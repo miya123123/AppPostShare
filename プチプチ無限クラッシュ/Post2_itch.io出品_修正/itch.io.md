@@ -1,19 +1,29 @@
 # itch.io掲載原稿・日本語
 
 ## タイトル（Title）
-
+プチプチ無限クラッシュ：Puchipuchi Infinite Crash
 
 ## Project URL
-https://miya-gamedev.itch.io/
+https://miya-gamedev.itch.io/puchipuchi-infinite-crash
 
 ## 短い紹介（Short description）
-
+指やマウスでなぞってプチプチを潰す気分爽快系ゲーム。30秒程度でプレイ可能です。
 
 ## Uploads
 This file will be played in the browser
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/puchipuchi-infinite-crash-v3/index.html
+
+### Change display name
+puchipuchi-infinite-crash.html
+
+### This file will be played in the browser
+Check
 
 ## Orientation
 Portrait（縦向き）
+
+## Click to launch in fullscreen
+Check
 
 ## AI generation disclosure
 Yes, Graphics, Text, Code
@@ -47,6 +57,9 @@ Prototype
 
 ## Classification
 Game
+
+
+## other
 
 Action
 
