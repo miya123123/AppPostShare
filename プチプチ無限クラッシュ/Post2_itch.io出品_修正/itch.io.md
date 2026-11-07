@@ -47,7 +47,7 @@ Action
 
 Genre
 
-2D, Arcade, Casual, Clicker, Tags Score Attack, Short, Singleplayer,
+2D, Arcade, Casual, Clicker, Score Attack, Short, Singleplayer,
 
 Touch-Friendly
 
