@@ -32,7 +32,7 @@
 Mac / Android / iOS
 
 # タグ
-2D, Arcade, Casual, Clicker, Score Attack, Short, Singleplayer
+2D, Arcade, Casual, Score Attack, Short, Singleplayer
 
 # その他
 Status Prototype
