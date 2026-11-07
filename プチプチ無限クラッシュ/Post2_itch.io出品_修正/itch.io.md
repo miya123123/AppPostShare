@@ -120,6 +120,14 @@ Mac / Android / iOS
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/01_normal_big.png
 
 
-## Upload Banner Image
+
+## Edit Thema
+
+### Layout
+#### Screenshots
+Sidebar
+
+### Images
+#### Banner
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Banner_JA_ImageGen.png
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Banner_EN_ImageGen.png
