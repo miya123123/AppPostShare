@@ -1,3 +1,71 @@
+# itch.io掲載原稿・日本語
+
+## タイトル（Title）
+
+
+## Project URL
+https://miya-gamedev.itch.io/
+
+## 短い紹介（Short description）
+
+
+## Uploads
+This file will be played in the browser
+
+## Orientation
+Portrait（縦向き）
+
+## AI generation disclosure
+Yes, Graphics, Text, Code
+
+## Community
+Discussion board
+
+## Screenshots
+Sidebar
+
+## Pricing
+PWYW
+
+## Languages
+Japanese
+
+## Inputs
+Mouse / Touch
+
+## Multiplayer
+Single-player
+
+## Adult content
+無効
+
+# タグ
+2D, Casual, Score Attack, Short, Singleplayer
+
+## Release status
+Prototype
+
+## Classification
+Game
+
+Action
+
+
+## 
+Touch-Friendly
+
+Average A few seconds
+
+session
+
+Languages Japanese
+
+Inputs Mouse, Touchscreen
+
+Al Disclosure Al Assisted, Code, Graphics, Text
+
+
+
 # 詳細
 【概要】
 指やマウスでなぞってプチプチを潰す、30秒のスコアアタックゲームです。
@@ -31,32 +99,4 @@
 【動作確認済みOS】
 Mac / Android / iOS
 
-# タグ
-2D, Casual, Score Attack, Short, Singleplayer
 
-# その他
-Status Prototype
-
-Platforms
-
-HTML5
-
-Author miya gamedev
-
-Action
-
-Genre
-
-2D, Arcade, Casual, Clicker, Score Attack, Short, Singleplayer,
-
-Touch-Friendly
-
-Average A few seconds
-
-session
-
-Languages Japanese
-
-Inputs Mouse, Touchscreen
-
-Al Disclosure Al Assisted, Code, Graphics, Text
