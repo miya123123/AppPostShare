@@ -32,6 +32,31 @@
 Mac / Android / iOS
 
 # タグ
-#VibeCoding #CasualGame #ストレス発散系ゲーム
+2D, Arcade, Casual, Clicker, Score Attack, Short, Singleplayer
 
+# その他
+Status Prototype
 
+Platforms
+
+HTML5
+
+Author miya gamedev
+
+Action
+
+Genre
+
+2D, Arcade, Casual, Clicker, Tags Score Attack, Short, Singleplayer,
+
+Touch-Friendly
+
+Average A few seconds
+
+session
+
+Languages Japanese
+
+Inputs Mouse, Touchscreen
+
+Al Disclosure Al Assisted, Code, Graphics, Text
