@@ -59,27 +59,16 @@ Prototype
 Game
 
 
-## other
+## Mobile friendly — Your project can run on mobile phones (smaller resolution and touch support)
+Check
 
+## Genre
 Action
 
 
-## 
-Touch-Friendly
-
-Average A few seconds
-
-session
-
-Languages Japanese
-
-Inputs Mouse, Touchscreen
-
-Al Disclosure Al Assisted, Code, Graphics, Text
 
 
-
-# 詳細
+## 詳細
 【概要】
 指やマウスでなぞってプチプチを潰す、30秒のスコアアタックゲームです。
 小さい粒で着実に点を積み重ねるか、巨大粒で高得点を狙うか、シート交換でインクを一掃するかを選びながら、ハイスコアを目指します。
@@ -113,3 +102,24 @@ Al Disclosure Al Assisted, Code, Graphics, Text
 Mac / Android / iOS
 
 
+
+## Upload Cover Image
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Cover_JA_ImageGen.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Cover_EN_ImageGen.png
+
+## Gameplay video or trailer
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/video/PV_JA.mp4
+
+ 
+
+## Screenshots
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/05_result.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/04_turn.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/03_allpop.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/02_ink.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/screenshots/01_normal_big.png
+
+
+## Upload Banner Image
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Banner_JA_ImageGen.png
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/images/Banner_EN_ImageGen.png
