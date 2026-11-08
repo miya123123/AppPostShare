@@ -52,15 +52,24 @@
 ・0:28：カバーアート
 
 【本ゲームのURL】
-リプライからご確認ください。
+本ゲームのURLはこちらです👇 
+ご興味のある方はぜひプレイしてください！
+
+プチプチ無限クラッシュ | miya | itch.io
+https://miya-gamedev.itch.io/puchipuchi-infinite-crash
 
 【動作確認済みOS】
 Mac / Android / iOS
 
-# 関連URL
-[【GPT-6.1 Sol】気分爽快系ゲーム「プチプチ無限クラッシュ」を公開 | miya](https://x.com/miya00907380/status/2106504568288821526)
-[「【ファスナー・ワールド】開発・公開しました！ | miya](https://x.com/miya00907380/status/2115926660726005844)
-[【バキバキ！スマホハンマー】itch.ioに公開しました  | miya](https://x.com/miya00907380/status/2117376203590095072)
+【関連URL】
+【GPT-6.1 Sol】気分爽快系ゲーム「プチプチ無限クラッシュ」を公開 | miya
+https://x.com/miya00907380/status/2106504568288821526
+
+【ファスナー・ワールド】開発・公開しました！ | miya
+https://x.com/miya00907380/status/2115926660726005844
+
+【バキバキ！スマホハンマー】itch.ioに公開しました  | miya
+https://x.com/miya00907380/status/2117376203590095072
 
 【タグ】
 #GPT6.1Sol #GameDev #VibeCoding #CasualGame #ストレス発散系ゲーム
