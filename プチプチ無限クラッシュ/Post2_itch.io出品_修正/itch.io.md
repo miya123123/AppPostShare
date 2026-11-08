@@ -72,6 +72,7 @@ Action
 【概要】
 指やマウスでなぞってプチプチを潰す、30秒のスコアアタックゲームです。
 小さい粒で着実に点を積み重ねるか、巨大粒で高得点を狙うか、シート交換でインクを一掃するかを選びながら、ハイスコアを目指します。
+本ゲームはMVP（試作版）となります。
 
 【操作】
 ・プレイ領域を指でタップ／なぞる、マウスでドラッグ：プチプチを潰す
@@ -109,6 +110,7 @@ Mac / Android / iOS
 
 ## Gameplay video or trailer
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/14_G6.1S_プチプチ無限クラッシュ/itch.io/store-kit-v4/video/PV_JA.mp4
+https://www.youtube.com/watch?v=XIjuyLXQ1aw
 
  
 
