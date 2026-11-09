@@ -1,0 +1,1 @@
+10/18 ひらく、庭。 宮本茂さん式プロンプト https://chatgpt.com/share/6ad49af3-adb8-83ee-87bf-25e9877b64f4?ogimg=plain 録画 CP 0.1I1.4
