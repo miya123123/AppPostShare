@@ -1,0 +1,49 @@
+{
+  "source": "https://zipper-world.miya333.chatgpt.site/",
+  "title": "ファスナー・ワールド 開発版 dev-v13 | Zipper World",
+  "capture_date_jst": "2026-11-11",
+  "method": "Actual browser screenshots captured during keyboard gameplay in shared Chrome. No game code or game state was modified. Paused between captures. PNGs are crops of the original full-page JPEG captures.",
+  "crop_pixels": [
+    152,
+    222,
+    898,
+    1190
+  ],
+  "screenshots": [
+    {
+      "filename": "01-garden.png",
+      "size": [
+        746,
+        968
+      ]
+    },
+    {
+      "filename": "02-city.png",
+      "size": [
+        746,
+        968
+      ]
+    },
+    {
+      "filename": "03-ocean.png",
+      "size": [
+        746,
+        968
+      ]
+    },
+    {
+      "filename": "04-space.png",
+      "size": [
+        746,
+        968
+      ]
+    },
+    {
+      "filename": "05-rainbow-fever.png",
+      "size": [
+        746,
+        968
+      ]
+    }
+  ]
+}
