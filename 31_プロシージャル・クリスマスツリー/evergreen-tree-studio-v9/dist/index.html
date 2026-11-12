@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#f6f6f0">
+ <meta name="description" content="枝、雪、飾り、光を選んで、自分だけの3Dクリスマスツリーを。シードで再現し、GLBモデル・PNG画像・設定をダウンロードできます。">
+ <title>EVERGREEN — プロシージャル・クリスマスツリー</title>
+ <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+ <link rel="stylesheet" href="./styles.css">
+ <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
+ <symbol id="i-tree" viewBox="0 0 24 24"><path d="m12 2 5 7h-3l5 6h-4l5 5H4l5-5H5l5-6H7zM12 20v3"/></symbol>
+ <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/></symbol>
+ <symbol id="i-gift" viewBox="0 0 24 24"><path d="M3 8h18v5H3zM5 13v8h14v-8M12 8v13"/><path d="M12 8S3 8 5 4s7 4 7 4Zm0 0s9 0 7-4-7 4-7 4Z"/></symbol>
+ <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="m10 3 2.2 6.8L19 12l-6.8 2.2L10 21l-2.2-6.8L1 12l6.8-2.2zM19 2v6M16 5h6M20 17v5M17.5 19.5h5"/></symbol>
+ <symbol id="i-dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M8 8h.01M16 8h.01M12 12h.01M8 16h.01M16 16h.01" stroke-width="3" stroke-linecap="round"/></symbol>
+ <symbol id="i-reset" viewBox="0 0 24 24"><path d="M3 10a9 9 0 1 1 1 7M3 4v6h6"/></symbol>
+ <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/></symbol>
+ <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4m-5 5 5-5 5 5M4 16v5h16v-5"/></symbol>
+ <symbol id="i-expand" viewBox="0 0 24 24"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5"/></symbol>
+ <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+ <symbol id="i-rotate" viewBox="0 0 24 24"><path d="M21 9a9 9 0 0 0-16-3M3 3v5h5M3 15a9 9 0 0 0 16 3m2 3v-5h-5"/></symbol>
+ <symbol id="i-camera" viewBox="0 0 24 24"><path d="M3 7h5l2-3h4l2 3h5v14H3z"/><circle cx="12" cy="13" r="4"/></symbol>
+ <symbol id="i-cube" viewBox="0 0 24 24"><path d="m12 2 9 5v10l-9 5-9-5V7zM3 7l9 5 9-5M12 12v10M7.5 4.5l9 5"/></symbol>
+ <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+ <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></symbol>
+ <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 9a3 3 0 1 1 4 3c-1 .5-1 1-1 2m0 3h.01"/></symbol>
+ <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"/></symbol>
+</defs></svg>
+<header class="site-header">
+ <a href="./" class="brand" aria-label="Evergreen ツリー工房 ホーム"><span class="brand-mark"><svg class="icon"><use href="#i-tree"/></svg></span><span><strong>EVERGREEN<span class="brand-dot">.</span></strong><small>プロシージャル・クリスマスツリー</small></span></a>
+ <div class="header-actions"><span class="save-status" id="saveStatus"><span></span>この端末に自動保存</span><span class="header-rule"></span><button class="quiet-button" id="importSettings"><svg class="icon"><use href="#i-upload"/></svg><span>設定を読込</span></button><button class="quiet-button" id="exportSettings"><svg class="icon"><use href="#i-download"/></svg><span>設定を保存</span></button></div>
+</header>
+<main>
+ <section class="intro"><div><p class="eyebrow"><span></span> A LITTLE CHRISTMAS, MADE BY YOU</p><h1>ひとつだけの、クリスマス<span>。</span></h1><p class="intro-copy">枝を広げて、雪をのせて、光を灯す。あなただけのツリーをつくりましょう。</p></div><div class="intro-tag"><svg class="icon"><use href="#i-cube"/></svg>3D TREE STUDIO<span>VOL. 01</span></div></section>
+ <div class="workspace">
+  <div id="pinnedPreview" class="pinned-preview" hidden></div>
+  <aside class="controls-panel" aria-label="ツリーの設定">
+   <div class="tab-list" role="tablist" aria-label="設定カテゴリー"><button role="tab" aria-selected="true" aria-controls="panel-shape" id="tab-shape" data-tab="shape"><svg class="icon"><use href="#i-tree"/></svg>形</button><button role="tab" aria-selected="false" aria-controls="panel-decor" id="tab-decor" data-tab="decor" tabindex="-1"><svg class="icon"><use href="#i-gift"/></svg>飾り</button><button role="tab" aria-selected="false" aria-controls="panel-light" id="tab-light" data-tab="light" tabindex="-1"><svg class="icon"><use href="#i-sparkles"/></svg>光</button></div>
+   <div class="panel-scroll">
+    <section role="tabpanel" id="panel-shape" aria-labelledby="tab-shape">
+     <div class="panel-heading"><span class="step-label">01 / SHAPE</span><h2>ツリーのかたち</h2><p>お気に入りのシルエットから。</p></div>
+     <div class="slider-field"><label for="layers">幹・枝の段数 <output for="layers" id="out-layers">7 <small>段</small></output></label><input id="layers" type="range" min="3" max="10" step="1" value="7"><div class="range-hints"><span>シンプル</span><span>ボリューミー</span></div></div>
+     <div class="slider-field"><label for="height">ツリーの高さ <output for="height" id="out-height">4.6 <small>m</small></output></label><input aria-describedby="heightHint" id="height" type="range" min="2.5" max="7" step="0.1" value="4.6"><p id="heightHint" class="motion-note" style="margin:12px 0 0">高さの変更中は視点を維持します。全体を見るにはプレビューの「視点をリセット」を押してください。</p></div>
+     <div class="slider-field"><label for="trunkHeight">幹の高さ <output for="trunkHeight" id="out-trunkHeight">12 <small>% · 0.55m</small></output></label><input id="trunkHeight" type="range" min="5" max="40" step="1" value="12" aria-describedby="trunkHint"><p id="trunkHint" class="motion-note" style="margin:12px 0 0">幹を高くすると枝葉が短くなります。全体の高さは変わりません。</p></div>
+     <div class="slider-field"><label for="spread">枝の広がり <output for="spread" id="out-spread">100 <small>%</small></output></label><input id="spread" type="range" min="60" max="140" step="1" value="100"></div>
+     <div class="slider-field snow-field"><label for="snow">雪の積もり具合 <output for="snow" id="out-snow">28 <small>%</small></output></label><input id="snow" type="range" min="0" max="100" step="1" value="28"><div class="range-hints"><span>雪なし</span><span>ふわふわの雪</span></div></div>
+     <fieldset><legend>葉の色</legend><div class="swatch-options" data-options="foliage"><button data-value="evergreen" aria-pressed="true"><i style="--swatch:#285e45"></i>常緑</button><button data-value="blue" aria-pressed="false"><i style="--swatch:#497b79"></i>青緑</button><button data-value="gold" aria-pressed="false"><i style="--swatch:#c7a04c"></i>ゴールド</button></div></fieldset>
+     <fieldset class="topper-field"><legend>てっぺんの星</legend><div class="shape-options" data-options="topper"><button data-value="five" aria-pressed="true"><span>★</span>5角</button><button data-value="eight" aria-pressed="false"><span>✷</span>8角</button><button data-value="crystal" aria-pressed="false"><span>◇</span>結晶</button><button data-value="none" aria-pressed="false"><span>―</span>なし</button></div></fieldset>
+     <div class="slider-field"><label for="topperSize">天辺の飾りサイズ <output for="topperSize" id="out-topperSize">100 <small>%</small></output></label><input id="topperSize" type="range" min="50" max="200" step="1" value="100"></div>
+    </section>
+    <section role="tabpanel" id="panel-decor" aria-labelledby="tab-decor" hidden>
+     <div class="panel-heading"><span class="step-label">02 / DECORATE</span><h2>小さな、ときめきを</h2><p>好きな飾りで、にぎやかに。</p></div>
+     <fieldset><legend>オーナメントの種類</legend><div class="choice-grid ornament-options" data-options="ornament"><button data-value="mixed" aria-pressed="true"><svg class="icon"><use href="#i-sparkles"/></svg>ミックス</button><button data-value="ball" aria-pressed="false"><span class="ball-symbol">●</span>ボール</button><button data-value="star" aria-pressed="false"><svg class="icon"><use href="#i-star"/></svg>星</button><button data-value="gift" aria-pressed="false"><svg class="icon"><use href="#i-gift"/></svg>プレゼント</button><button data-value="none" aria-pressed="false">飾りなし</button></div></fieldset>
+     <div class="slider-field"><label for="density">飾りの密度 <output for="density" id="out-density">62 <small>%</small></output></label><input id="density" type="range" min="0" max="100" step="1" value="62"><div class="range-hints"><span>さりげなく</span><span>とびきり豪華に</span></div></div>
+     <div class="slider-field"><label for="ornamentSize">オーナメントサイズ <output for="ornamentSize" id="out-ornamentSize">100 <small>%</small></output></label><input id="ornamentSize" type="range" min="50" max="200" step="1" value="100"></div>
+     <fieldset><legend>飾りの配色</legend><div class="palette-options" data-options="palette"><button data-value="classic" aria-pressed="true"><i><b style="background:#c85147"></b><b style="background:#d9b764"></b><b style="background:#eee1bc"></b></i><span>赤と金</span></button><button data-value="ice" aria-pressed="false"><i><b style="background:#a3cfd5"></b><b style="background:#e5edf0"></b><b style="background:#a4b8d4"></b></i><span>アイス</span></button><button data-value="candy" aria-pressed="false"><i><b style="background:#eb95a4"></b><b style="background:#91bba9"></b><b style="background:#f0d6a9"></b></i><span>キャンディ</span></button><button data-value="gold" aria-pressed="false"><i><b style="background:#d3ae54"></b><b style="background:#a5772e"></b><b style="background:#f1d79e"></b></i><span>金一色</span></button></div></fieldset>
+     <div class="tip-card"><svg class="icon"><use href="#i-gift"/></svg><p>ボール、星、小さなプレゼント。<br>ミックスなら、すべてをひとつの木に。</p></div>
+    </section>
+    <section role="tabpanel" id="panel-light" aria-labelledby="tab-light" hidden>
+     <div class="panel-heading"><span class="step-label">03 / ILLUMINATE</span><h2>魔法を、灯そう</h2><p>夜にも映える、とっておきの光。</p></div>
+     <fieldset><legend>電飾の色パターン</legend><div class="light-options" data-options="lights"><button data-value="warm" aria-pressed="true"><i style="--lights:#ffd58e"></i><span>ウォーム<small>あたたかな、定番の光</small></span><svg class="icon"><use href="#i-check"/></svg></button><button data-value="multi" aria-pressed="false"><i style="--lights:linear-gradient(135deg,#f58e7b,#f8d66d,#7fd5c7,#9fa5eb)"></i><span>マルチカラー<small>にぎやかなクリスマス</small></span><svg class="icon"><use href="#i-check"/></svg></button><button data-value="ice" aria-pressed="false"><i style="--lights:#b7e6ff"></i><span>アイスブルー<small>澄みわたる、冬の夜</small></span><svg class="icon"><use href="#i-check"/></svg></button><button data-value="aurora" aria-pressed="false"><i style="--lights:linear-gradient(135deg,#9de6c6,#b4a3ee,#f5c6ee)"></i><span>オーロラ<small>少し不思議な、夢の色</small></span><svg class="icon"><use href="#i-check"/></svg></button><button data-value="none" aria-pressed="false"><i class="no-light"></i><span>電飾なし</span><svg class="icon"><use href="#i-check"/></svg></button></div></fieldset>
+     <div class="slider-field"><label for="lightDensity">電飾の密度 <output for="lightDensity" id="out-lightDensity">65 <small>%</small></output></label><input id="lightDensity" type="range" min="20" max="100" step="1" value="65"></div>
+     <div class="slider-field"><label for="glow">光の強さ <output for="glow" id="out-glow">75 <small>%</small></output></label><input id="glow" type="range" min="20" max="100" step="1" value="75"></div>
+     <fieldset><legend>光の動き <span class="legend-note">プレビューのみ</span></legend><div class="segmented-options motion-options" data-options="motion"><button data-value="steady" aria-pressed="false">常灯</button><button data-value="blink" aria-pressed="false">点滅</button><button data-value="twinkle" aria-pressed="true">きらめき</button><button data-value="wave" aria-pressed="false">ウェーブ</button></div></fieldset>
+     <div class="slider-field"><label for="motionSpeed">点滅の速さ <output for="motionSpeed" id="out-motionSpeed">1.0 <small>倍</small></output></label><input id="motionSpeed" type="range" min="0.5" max="2" step="0.1" value="1" aria-describedby="motionNote"><div class="range-hints"><span>ゆっくり · 0.5倍</span><span>速め · 2.0倍</span></div></div>
+     <p id="motionNote" class="motion-note">電球と周囲の光が、同じタイミングで点滅します。</p>
+    </section>
+    <div class="seed-field"><label for="seed">SEED <span>配置を再現する番号</span></label><div><input id="seed" type="number" min="0" max="999999" step="1" value="251225" inputmode="numeric"><button id="newSeed" class="icon-button" aria-label="シードだけを変更"><svg class="icon"><use href="#i-dice"/></svg></button></div></div>
+   </div>
+   <div class="controls-footer"><button id="randomize" class="random-button"><svg class="icon"><use href="#i-dice"/></svg>おまかせでつくる<svg class="icon small-icon"><use href="#i-sparkles"/></svg></button><button id="reset" class="reset-button"><svg class="icon"><use href="#i-reset"/></svg>最初のツリーに戻す</button></div>
+  </aside>
+  <div class="preview-column">
+   <div id="previewHome" hidden></div>
+   <section class="viewport-card" id="viewportCard" aria-label="3Dツリープレビュー">
+    <div class="stage" id="stage" tabindex="0" aria-label="3Dプレビュー。ドラッグで回転、ホイールで拡大縮小。方向キーで回転、プラスとマイナスで拡大縮小。">
+     <canvas id="canvas" aria-label="プロシージャル生成されたクリスマスツリー"></canvas>
+     <div class="stage-loading" id="loading"><svg class="icon"><use href="#i-tree"/></svg><span>冬の魔法を準備しています…</span></div>
+     <div class="stage-label"><p>YOUR LITTLE WONDER</p><h2 id="treeTitle">Classic Christmas</h2><span id="treeSubtitle">あたたかな、いつものクリスマス。</span></div>
+     <div class="stage-tools"><button class="icon-button" id="resetView" aria-label="視点をリセット" title="視点をリセット"><svg class="icon"><use href="#i-reset"/></svg></button><button class="icon-button" id="expand" aria-label="プレビューを拡大" aria-expanded="false" title="プレビューを拡大"><svg class="icon"><use href="#i-expand"/></svg></button></div>
+     <div class="stage-bottom"><div class="background-picker" role="group" aria-label="プレビュー背景"><span>背景</span><button data-bg="forest" aria-label="深緑の背景" aria-pressed="true" style="--bg:#263f36"></button><button data-bg="snow" aria-label="雪色の背景" aria-pressed="false" style="--bg:#e3e9e1"></button><button data-bg="night" aria-label="夜空の背景" aria-pressed="false" style="--bg:#272e43"></button></div><button id="autoRotate" class="auto-rotate" aria-pressed="true"><svg class="icon"><use href="#i-rotate"/></svg>自動回転<span class="toggle-dot"></span></button></div>
+<details class="preview-settings" id="previewSettings"><summary>表示設定</summary><div class="preview-settings-panel">    <div class="preview-options" role="group" aria-label="プレビューの表示設定"><label class="pedestal-option"><input type="checkbox" id="showPedestal" checked> 台座を表示</label><div class="rotation-option"><label for="rotationSpeed">自動回転の速さ <output id="out-rotationSpeed" for="rotationSpeed">1.0倍</output></label><input id="rotationSpeed" type="range" min="0.1" max="3" step="0.1" value="1"><div class="range-hints"><span>0.1倍</span><span>3.0倍</span></div></div></div>
+    <div class="preview-pin-bar"><label><input type="checkbox" id="pinPreview"> プレビューを上部に固定</label><span>変更はすぐに反映されます</span></div>
+</div></details>
+     <div class="preview-meta"><span><i class="live-dot"></i>LIVE PREVIEW</span><span class="interaction-hint">ドラッグで回転 · スクロールでズーム</span><span id="modelStats">4.6m <b>·</b> 7段</span></div>
+     <div class="stage-decoration" aria-hidden="true">✧</div>
+    </div>
+
+   </section>
+   <section class="presets-section" aria-label="プリセット"><div class="section-title"><h2>ここから、はじめても。</h2><span>QUICK PRESETS</span></div><div class="preset-grid">
+    <button class="preset active" data-preset="classic" aria-pressed="true"><span class="mini-scene classic"><span class="mini-star">✦</span><i></i><b></b><em></em></span><span class="preset-copy"><strong>クラシック</strong><small>CLASSIC</small></span><span class="preset-check"><svg class="icon"><use href="#i-check"/></svg></span></button>
+    <button class="preset" data-preset="snow" aria-pressed="false"><span class="mini-scene snowy"><span class="mini-star">✦</span><i></i><b></b><em></em></span><span class="preset-copy"><strong>雪の森</strong><small>SNOW FOREST</small></span><span class="preset-check"><svg class="icon"><use href="#i-check"/></svg></span></button>
+    <button class="preset" data-preset="legend" aria-pressed="false"><span class="mini-scene golden"><span class="mini-star">✷</span><i></i><b></b><em></em></span><span class="preset-copy"><strong>レジェンド</strong><small>GOLDEN LEGEND</small></span><span class="preset-check"><svg class="icon"><use href="#i-check"/></svg></span></button>
+    <button class="preset" data-preset="aurora" aria-pressed="false"><span class="mini-scene aurora"><span class="mini-star">◇</span><i></i><b></b><em></em></span><span class="preset-copy"><strong>オーロラ</strong><small>MIDNIGHT</small></span><span class="preset-check"><svg class="icon"><use href="#i-check"/></svg></span></button>
+   </div></section>
+   <section class="export-bar" aria-label="作品の書き出し"><div><span class="export-icon"><svg class="icon"><use href="#i-cube"/></svg></span><p>できあがったら、持ち出そう。<small>ゲームの主役にも、冬の一枚にも。</small></p></div><div class="export-actions"><button class="png-button" id="exportPNG"><svg class="icon"><use href="#i-camera"/></svg>PNG画像</button><button class="primary-button" id="exportGLB"><svg class="icon"><use href="#i-download"/></svg>3Dモデル <span>GLB</span></button></div></section>
+  </div>
+ </div>
+ <footer class="page-footer"><span>小さなパラメータから、無限のクリスマス。</span><button id="helpButton"><svg class="icon"><use href="#i-help"/></svg>操作・書き出しについて</button></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<input type="file" id="settingsFile" accept=".json,application/json" hidden>
+<dialog id="helpDialog"><button id="closeHelp" class="icon-button dialog-close" aria-label="ヘルプを閉じる"><svg class="icon"><use href="#i-close"/></svg></button><p class="eyebrow">A FEW LITTLE TIPS</p><h2>工房の使い方</h2><p>「形・飾り・光」を選ぶと、ツリーがすぐに変わります。プリセットを選んだ後も自由に調整できます。</p><dl><dt>プレビュー</dt><dd>ドラッグ：回転 ／ スクロール・ピンチ：ズーム<br>右ドラッグ・2本指ドラッグ：平行移動<br>方向キー：回転 ／ ＋・−：ズーム ／ 0：視点リセット</dd><dt>光のアニメーション</dt><dd>「光」タブで常灯・点滅・きらめき・ウェーブを選び、速さを0.5〜2.0倍で調整できます。電球と周囲の光が連動します。端末の「動きを減らす」設定が有効な場合は常灯で表示します。</dd><dt>GLBモデル</dt><dd>ツリー本体を3Dモデルとして保存します。背景・台座・降雪は含まれません。Y-up、接地中心が原点、単位はmです。光のアニメーションはプレビューのみです。</dd><dt>PNG画像</dt><dd>現在の背景・視点・点滅状態でプレビュー画像を保存します。</dd><dt>設定を保存・読込</dt><dd>シード、光のパターンと速さを含むJSONで設定を再現できます。現在の設定はこの端末のブラウザにも自動保存されます。</dd></dl><p class="help-note">モデルや雪、装飾はすべてプログラムで生成しています。UnityでのGLB読込にはglTF対応インポーターが必要です。</p></dialog>
+<script>window.addEventListener('error',function(e){if(e.target&&e.target.tagName==='SCRIPT'){document.getElementById('loading').textContent='読み込みに失敗しました。ページを再読み込みしてください。';}},true);</script>
+<script type="module" src="./app.js"></script>
+</body></html>
