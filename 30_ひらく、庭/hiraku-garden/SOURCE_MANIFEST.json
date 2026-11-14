@@ -1,0 +1,27 @@
+{
+  "title": "ひらく、庭。",
+  "format_version": 1,
+  "files": {
+    ".gitignore": "23a646a232193b867d5a8a672d3c4c46331c005094781e7aba3cb6bb87181d95",
+    "DESIGN.md": "1afb8d616c4a44d2b9707e050d0d2947244ca7218319c410e223b118afa75183",
+    "README.md": "7720f2365a904272ed3345629a2796f28cda504cf8b2963d149d579ac88d1d3d",
+    "dist/garden-core.js": "5c5687f3e32a94a24e1afeb17292313a6798cbfb906e1cb1b6bcee91fdc0cd3f",
+    "dist/garden-debug.css": "14695d97eaa8050b10197b57f0d2f6e9e31d0f5aa60e5c5fb3f18f559f42b900",
+    "dist/garden-debug.js": "f1ca7ceed6dc8236f0b956ff59010266b84ebd70a83b7c16858632a4c70d1f11",
+    "dist/garden-ending.js": "64f7c9b0a56122b4b3e55bb86d468fdaa5bcfb0b6a7a4878e278f204ada48002",
+    "dist/garden-finale.js": "8cfcca60ad8b53f7bee083b25b4f8a041bfd0acf957ba1c0d298a1923f1f3ce1",
+    "dist/garden-hints.js": "d2821340ef3227e1dddc211c45f5d182f130d4d05645753df2e212dc8715ea6c",
+    "dist/garden-render.js": "e93989f31ed2282843b3a26fb20be0c703b5417c4a63069f13749da912d32995",
+    "dist/garden.js": "f28c2cc5f7ae1919cf7c61c9f26a5b798895fb236554c7076491556f8592ace8",
+    "dist/index.html": "6fe19647bcc08568af2fb11e49cd419fe6f3bc07c2654fd9c74c0acc3a86ae98",
+    "dist/style.css": "5d1d69851e007ea29c77774a243e2157ed55f12dfe98fc662500700b0edc485a",
+    "package.json": "b4443576f19bb3cd6a0e1c7076e8888161e3d5d151a741233587722423987fcc",
+    "scripts/package_source.py": "ca6bf54ff269c8ccca0d4507339e2f10a76a69927db00a8f7a097583199963b3",
+    "tests/debug.test.js": "f402735bea95fcafc8c20972976e94bb522015b7b16e723c3cbad105a5618c8f",
+    "tests/ending.test.js": "433161337ea38c8c566b9acd52093b40679cb698ca15d1c861bdd81259fbe11c",
+    "tests/finale.test.js": "2593b1cf478274572a6cfac92d87594a93deeb3fa271c5f62b29023561bfc3dd",
+    "tests/garden.test.js": "10248c0fac283e5756ca4acabc02240e752a397f0668b9c50ede2929b65d8a25",
+    "tests/hints.test.js": "961b9e401ba778056279567498352e12cb3704d6e75eb78e53cd3f97b679e1e1",
+    "tests/restart.test.js": "926a10b8a912ff2a4d4c1395a02b4137793cb518e6fed27c7981e8b74fd27427"
+  }
+}
