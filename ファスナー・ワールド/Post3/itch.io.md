@@ -35,58 +35,20 @@ zipper-world.html
 Check
 
 ## Embed options
-Click to launch in fullscreen
-
-## Orientation
-Portrait（縦向き）
-※ゲーム画面（Canvas）は900×1080（縦5：6）です。本体ページはレスポンシブ対応で、スマートフォンでは画面の高さに合わせてゲーム画面が縮小され、摩擦ゲージがゲーム画面の真下に表示されます。
-
-
-## AI generation disclosure
-Yes, Graphics, Text, Code
-※Graphicsは、宣伝用カバー・バナー画像にGPT Imageを使用する前提での申告です（ゲーム内の画像生成には使用していません）。カバー・バナーを画像生成なしで作る場合は、Graphicsを外してください。
-
-## Community
-Discussion board
-
-## Screenshots
-Sidebar
-
-
-## Languages
-Japanese
-
-## Inputs
-Mouse / Touch / Keyboard
-※プチプチ無限クラッシュ（Mouse / Touch）との違い：本ゲームはキーボード操作（Space／矢印キー／WASD／Escape）にも対応しています。
-
-## Multiplayer
-Single-player
-
-## Adult content
-無効
-
-# タグ
-2D, Casual, Colorful, Procedural Generation, Score Attack, Short, Singleplayer
-
-
-## Mobile friendly — Your project can run on mobile phones (smaller resolution and touch support)
+### Click to launch in fullscreen
 Check
 
-## Genre
-Action
+### Frame options
+#### Mobile friendly — Your project can run on mobile phones (smaller resolution and touch support)
+Check
 
+##### Orientation
+Portrait（縦向き）
 
+#### Enable scrollbars — Enable scrollbars in the iframe that contains your project
+Check
 
-
-## 詳細
-【使用技術】
-・Codex（GPT-6.1-Sol）：本ゲームの設計と実装、この紹介文と紹介動画の作成に使用しました
-・Canvas 2D：ゲーム画面の描画
-・Web Audio：ゲーム内のサウンド生成に使用しました
-・GPT Image：宣伝用カバー・バナー画像の生成に使用しました（ゲーム内の画像生成には使用していません）※カバー・バナー作成時に使用した場合の表記です
-
-【本ゲームについて】
+## Details
 1. 概要
 30秒程度の短時間でプレイ可能なスコアアタックゲームです。
 ファスナーを開くとその先にはカラフルな世界が出現し、通常プレイでは4つの世界を順に巡ります。
@@ -136,17 +98,64 @@ Action
 7. 動作確認済みOS
 Mac / Android / iOS
 
+8. 使用技術
+・Codex（GPT-6.1-Sol）：本ゲームの設計と実装、この紹介文と紹介動画の作成に使用しました
+・Canvas 2D：ゲーム画面の描画に使用しました
+・Web Audio：ゲーム内のサウンド生成に使用しました
+・GPT Image：宣伝用カバー・バナー画像の生成に使用しました
+
+
+## Genre
+Action
+
+# Tags
+2D, Casual, Colorful, Procedural Generation, Score Attack, Short, Singleplayer
+
+## AI generation disclosure
+Yes
+
+### What kind of AI generated content is used?
+Graphics, Text, Code
+
+### Statement of AI usage (optional)
+・Codex（GPT-6.1-Sol）：本ゲームの設計と実装、この紹介文と紹介動画の作成に使用しました
+・GPT Image：宣伝用カバー・バナー画像の生成に使用しました
+
+## Community
+Discussion board
 
 ## Upload Cover Image
-/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/cover
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/cover/cover-en-1260x1000.png
 
 ## Gameplay video or trailer
+https://youtu.be/OdaeTfT2JZM
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/Recordings/3/Join.mov
-
 
 
 ## Screenshots
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/screenshots
+
+
+
+
+
+
+## Metadata
+### Classification
+#### Input methods — How can your game be played?
+Mouse / Touch / Keyboard
+
+#### Average session duration — Time it takes to reach an objective (complete a level, a run, etc.)
+A few seconds
+
+#### Player count — How many players can play together during a single session
+1
+
+#### Languages
+Japanese
+
+
+
 
 
 
@@ -158,14 +167,4 @@ Sidebar
 
 ### Images
 #### Banner
-/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/banner
-
-
-
-## 公開前に確認いただく点（掲載原稿には含めないメモです）
-1. Project URLのスラッグ「zipper-world」が使えるか（アカウント名miya-gamedevは、プチプチ無限クラッシュのURLから引き継いでいます）。
-2. PricingはPWYWでよいか（プチプチ無限クラッシュと同設定で仮置きしています）。
-3. カバー画像・バナー・スクリーンショット5点・PVは未作成／未撮影です。上記のファイル名と格納先（案）に沿ってご用意ください。
-4. AI generation disclosureのGraphicsは、カバー・バナーにGPT Imageを使う前提です。使わない場合は外し、詳細の【使用技術】のGPT Imageの行も削除してください。
-5. アップロード用ファイルzipper-world.htmlは、開発版dev-v13から「開発版 dev-v13」表記（タイトルとフッターの2か所）のみを除いた公開用です。デバッグボタン（虹色世界へ移動するボタン）は、添付の開発版の時点で既に削除済みであることを確認しています。
-6. 公開ゲームのURLは、既存の公開ページ（https://zipper-world.miya333.chatgpt.site）とは別に、itch.io側のURLが発行されます。X等で案内済みのURLを差し替えるかは、公開時にご判断ください。
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/banner/banner-en-1920x640.png

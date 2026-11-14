@@ -13,8 +13,10 @@ https://miya-gamedev.itch.io/zipper-world
 
 
 # サムネイル
-/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/cover
-/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/banner
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/banner/banner-en-1920x640.png
+
+# 視聴者
+いいえ、子ども向けではありません
 
 # 有料プロモーション
 いいえ
@@ -26,6 +28,7 @@ https://miya-gamedev.itch.io/zipper-world
 Game, itch.io, 2D, Casual, Score Attack, Short, Singleplayer
 
 # 本動画のURL
+https://youtu.be/OdaeTfT2JZM
 /Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/Recordings/3/Join.mov
 
 
