@@ -6,8 +6,23 @@
 ## Project URL
 https://miya-gamedev.itch.io/zipper-world
 
-## 短い紹介（Short description）
-ファスナーを詰まらせないように引いて、さまざまなカラフルな世界を開く、30秒のスコアアタックゲームです。
+## Short description or tagline
+ファスナーを詰まらせないように引いて、カラフルな世界を開くゲームです。
+
+## Classification
+Games
+
+## Kind of project
+HTML
+
+## Release status
+Prototype
+
+## Pricing
+PWYW
+
+### Suggested donation
+$2
 
 ## Uploads
 This file will be played in the browser
@@ -19,12 +34,13 @@ zipper-world.html
 ### This file will be played in the browser
 Check
 
+## Embed options
+Click to launch in fullscreen
+
 ## Orientation
 Portrait（縦向き）
 ※ゲーム画面（Canvas）は900×1080（縦5：6）です。本体ページはレスポンシブ対応で、スマートフォンでは画面の高さに合わせてゲーム画面が縮小され、摩擦ゲージがゲーム画面の真下に表示されます。
 
-## Click to launch in fullscreen
-Check
 
 ## AI generation disclosure
 Yes, Graphics, Text, Code
@@ -36,9 +52,6 @@ Discussion board
 ## Screenshots
 Sidebar
 
-## Pricing
-PWYW
-※プチプチ無限クラッシュと同設定の仮置きです。公開前に最終確認してください。
 
 ## Languages
 Japanese
@@ -55,12 +68,6 @@ Single-player
 
 # タグ
 2D, Casual, Colorful, Procedural Generation, Score Attack, Short, Singleplayer
-
-## Release status
-Prototype
-
-## Classification
-Game
 
 
 ## Mobile friendly — Your project can run on mobile phones (smaller resolution and touch support)
