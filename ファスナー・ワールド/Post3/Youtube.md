@@ -13,6 +13,8 @@ https://miya-gamedev.itch.io/zipper-world
 
 
 # サムネイル
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/cover
+/Users/miya/program/app/chatGPTGame/root/ChatGPT/GPT 6/20_ファスナー・ワールド/zipper-world-itch-v2/banner
 
 # 有料プロモーション
 いいえ
